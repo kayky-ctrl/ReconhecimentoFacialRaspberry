@@ -35,14 +35,17 @@ pip install picamera2 numpy
 
 ### **Instalação**
 Clone o repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
+```bash
+git clone https://github.com/kayky-ctrl/ReconhecimentoFacialRaspberry
+```
 Execute o sistema:
-
-
-cd seu-repositorio
+```bash
+cd ReconhecimentoFacialRaspberry
+```
 python3 ReconhecimentoFacialRegistrarFace.py  # Para captura
+
 python3 TreinamentoReconhecimentoFacial.py    # Para treino
+
 python3 ReconhecimentoFinalFace.py            # Para reconhecimento
 
 ### **📂 Estrutura do Projeto**
