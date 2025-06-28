@@ -60,7 +60,7 @@ Adicionar pessoas: Execute o script de captura com novo ID
 
 Ajustar sensibilidade: Modifique o limiar em ReconhecimentoFinalFace.py
 
-🔧 Solução de Problemas
+## **🔧 Solução de Problemas**
 Erro no classificador Haar Cascade:
 
 sudo apt install opencv-data
