@@ -32,17 +32,19 @@ Um sistema completo de reconhecimento facial desenvolvido para Raspberry Pi, uti
 sudo apt update
 sudo apt install python3-opencv python3-pip
 pip install picamera2 numpy
-2. Estrutura do Projeto
+```
+
+### **2. Estrutura do Projeto**
 text
 📂 projeto/
 ├── 📂 faces/               # Armazena imagens capturadas
 ├── 📜 ReconhecimentoFacialRegistrarFace.py   # Captura rostos
 ├── 📜 TreinamentoReconhecimentoFacial.py     # Treina modelo
 └── 📜 ReconhecimentoFinalFace.py             # Reconhecimento
-3. Execução
+
+### **3. Execução**
 🔹 Cadastrar rostos:
 
-bash
 python3 ReconhecimentoFacialRegistrarFace.py
 🔹 Treinar modelo:
 
@@ -62,7 +64,7 @@ sudo apt install opencv-data
 Verifique o caminho:
 /usr/share/opencv4/haarcascades/haarcascade_frontalface_default.xml
 
-📜 Licença
+### **📜 Licença**
 MIT © kayky-ctrl
 
-⭐ Dúvidas? Abra uma issue!
+### **⭐ Dúvidas? Abra uma issue!**
