@@ -1,7 +1,7 @@
 # ReconhecimentoFacialRaspberry
 Sistema de reconhecimento facial em Python para Raspberry Pi. Funcionalidades: 1) Captura de rostos 2) Treinamento do modelo LBPH 3) Identificação em tempo real. Usa OpenCV e Picamera2. Perfeito para controle de acesso, segurança e projetos IoT. Requer módulo de câmera.
 
-# **👋 Sistema de Reconhecimento Facial - Raspberry Pi**  
+# **Sistema de Reconhecimento Facial - Raspberry Pi**  
 
 ![OpenCV](https://img.shields.io/badge/OpenCV-5.0%2B-green)  
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)  
@@ -35,11 +35,14 @@ pip install picamera2 numpy
 ```
 
 ### **2. Estrutura do Projeto**
-text
 📂 projeto/
+
 ├── 📂 faces/               # Armazena imagens capturadas
+
 ├── 📜 ReconhecimentoFacialRegistrarFace.py   # Captura rostos
+
 ├── 📜 TreinamentoReconhecimentoFacial.py     # Treina modelo
+
 └── 📜 ReconhecimentoFinalFace.py             # Reconhecimento
 
 ### **3. Execução**
